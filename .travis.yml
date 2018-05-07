@@ -17,7 +17,6 @@ before_install:
   - sudo mv docker-compose /usr/local/bin
 
 before_script:
-  - sleep 3
   - docker-compose up -d --build
 
 script:
